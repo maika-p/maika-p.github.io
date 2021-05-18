@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* General */
+
+header {
+  padding: 200px 0 156px;
+}
+
+section {
+  padding: 50px 0 0 0;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 120%;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  color: #0b0a07;
+  background-color: #f1f1f1;
+}
+
+.content {
+  padding: 20px 0;
+}
+
+/* Introduction styling */
+
+#introduction {
+  padding-top: 100px;
+}
+
+#intro-name {
+  font-size: 5rem;
+}
+
+/* About styling */
+
+#about h2 {
+  padding: 25px 0;
+}
+
+#portrait {
+  padding: 25px 0;
+}
+
+/* Media queries */
+
+@media (max-width: 576px) {
+  #intro-name {
+    padding-bottom: 15px;
+  }
+  #portrait {
+    width: 50%;
+    margin: 0 10vh;
+  }
+  .container {
+    max-width: 100%;
+    width: 95%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+  #intro-name {
+    padding-bottom: 15px;
+  }
+  #portrait {
+    margin: 0 8vh;
+    width: 70%;
+
+  }
+  .container {
+    max-width: 100%;
+    width: 95%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1920px;
+    width: 75%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { .
+} */
+
